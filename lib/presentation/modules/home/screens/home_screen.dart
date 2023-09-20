@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
               ),
               SliverToBoxAdapter(
                 child: Text(
-                  'Popular WOi',
+                  'Popular Books',
                   style: FontFamilyConstant.primaryFont.copyWith(
                     fontSize: 16,
                     fontWeight: FontWeight.w700,
@@ -33,10 +33,6 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ),
-      ),
-      bottomNavigationBar: BottomNavbar(
-        currentIndex: 0,
-        onTap: (index) {},
       ),
     );
   }

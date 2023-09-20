@@ -1,3 +1,6 @@
+import 'package:aplikasibuku/presentation/modules/register/screens/register_screen.dart';
+import 'package:aplikasibuku/presentation/modules/root/screen/root_screen.dart';
+
 import '/path.dart';
 import 'package:flutter/material.dart';
 
@@ -15,6 +18,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const SplashScreen(),
         '/home': (context) => const HomeScreen(),
+        '/root': (context) => const RootScreen(),
+        '/register': (context) => const RegisterScreen(),
       },
     );
   }
